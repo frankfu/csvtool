@@ -1,7 +1,7 @@
 import sys, csv
 
 def getrowstr(row):
-    return ", ".join(["'%s'" % i for i in row])
+    return ", ".join(["'%s'" % col for col in row])
 
 def csvtool(fname, table_name):
     f = open(fname, "rb")
