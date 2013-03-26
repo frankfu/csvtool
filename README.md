@@ -1,4 +1,4 @@
-从CSV输出SQL，实现结果如下：
+从CSV文件输出SQL，实现结果如下：
 
 frankfu@debian:~$ cat test.csv  
 id, name, date  
